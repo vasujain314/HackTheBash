@@ -12,7 +12,7 @@ def socket_create():
         host = ''
         port = 7778
         s = socket.socket()
-
+    # if there is an error display a message
     except socket.error as msg:
         print('Socket Creation Error: ' + str(msg))
 
